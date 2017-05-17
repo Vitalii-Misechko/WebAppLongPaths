@@ -24,6 +24,10 @@ namespace WebAppLongPaths.Controllers {
 			foreach( var num in new[] {1,2,3,4,5,6,7,8,9,0} ) {
 				dir = dir + "/" + new String( num.ToString()[0], 30 );
 			}
+
+			var fullDir = $"\\\\?\\c:/D2L/GIT/WebAppLongPaths/WebAppLongPaths/Temp{dir}/data.txt";
+
+			Directory.CreateDirectory( fullDir );
 			
 			using( StreamWriter _testData = new StreamWriter( Server.MapPath( $"~/Temp{dir}/data.txt" ), true ) ) {
 				_testData.WriteLine( "Hello" ); // Write the file.
