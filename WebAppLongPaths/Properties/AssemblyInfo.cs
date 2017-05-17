@@ -8,9 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle( "WebAppLongPaths" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
-[assembly: AssemblyCompany( "EPAM Systems" )]
 [assembly: AssemblyProduct( "WebAppLongPaths" )]
-[assembly: AssemblyCopyright( "Copyright © EPAM Systems 2017" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
