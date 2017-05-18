@@ -25,7 +25,7 @@ namespace WebAppLongPaths.Controllers {
 				dir = dir + "/" + new String( num.ToString()[0], 30 );
 			}
 
-			var fullDir = $"\\\\?\\c:/D2L/GIT/WebAppLongPaths/WebAppLongPaths/Temp{dir}/data.txt";
+			var fullDir = $"c:/D2L/GIT/WebAppLongPaths/WebAppLongPaths/Temp{dir}/";
 
 			Directory.CreateDirectory( fullDir );
 			
